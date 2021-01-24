@@ -25,6 +25,9 @@ setup(
       'faceaverager=facemorpher.averager:main'
     ]
   },
+  package_data={
+    "": ["data/*.dat"],
+  },
   data_files=[('readme', ['README.rst'])],
   long_description=open('README.rst').read(),
   include_package_data=True,
